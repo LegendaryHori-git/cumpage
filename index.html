@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>造園土木株式会社</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" type="text/css"
+        href="https://coco-factory.jp/ugokuweb/wp-content/themes/ugokuweb/data/reset.css">
+    <link rel="stylesheet" type="text/css"
+        href="https://coco-factory.jp/ugokuweb/wp-content/themes/ugokuweb/data/5-2-1/css/5-2-1.css">
+</head>
+
+<body>
+    <header>
+        <div class="flex">
+            <div>
+                <img src="image/logo.png" class="logo_img" alt="logo">
+            </div>
+
+            <div>
+                <div class="block menu hiddenmenu"><!--PC用のハンバーガーメニュー-->
+                    <div>
+                        <div class="openbtn1" onclick="MenuClick()"><span></span><span></span><span></span></div>
+                    </div>
+                    <div>
+                        <nav class="menuitem hidden">
+                            <ul>
+                                <li><a href="#home">ホーム</a></li>
+                                <li><a href="#company">会社概要</a></li>
+                                <li><a href="#services">仕事内容</a></li>
+                                <li><a href="#projects">プロジェクト</a></li>
+                                <li><a href="#team">チーム</a></li>
+                                <li><a href="#contact">お問い合わせ</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+
+                <nav class="hidden">
+                    <ul>
+                        <li><a href="#home">ホーム</a></li>
+                        <li><a href="#company">会社概要</a></li>
+                        <li><a href="#services">仕事内容</a></li>
+                        <li><a href="#projects">プロジェクト</a></li>
+                        <li><a href="#team">チーム</a></li>
+                        <li><a href="#contact">お問い合わせ</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+
+    </header>
+
+    <section id="home" class="hero">
+        <div class="slideshow-container">
+            <div class="mySlides fade">
+                <img src="image/main.png" style="width:80%">
+            </div>
+            <div class="container">
+                <h2>ようこそ、久城造園土木へ！</h2>
+                <p>私たちは、外来生物の駆除と効率的な土木工事を提供する専門企業です。</p>
+            </div>
+    </section>
+
+
+    <section id="company" class="company">
+        <div class="container">
+            <h2>会社概要</h2>
+            <div class="company-info">
+                <h3>会社名</h3>
+                <p>有限会社 久城造園土木</p>
+            </div>
+            <div class="company-info">
+                <h3>所在地</h3>
+                <p>〒100-0211<br>東京都大島町差木地字クダッチ</p>
+            </div>
+            <div class="company-info">
+                <h3>取締役</h3>
+                <p>
+                    久城 寿一(代表者)
+                    <br>
+                    久城 雄大(専務取締役)
+                    <br>
+                    五味 健太(常務取締役)
+                    <br>
+                    久城 悠乃(総務取締役)
+                </p>
+            </div>
+            <div class="company-info">
+                <h3>事業内容</h3>
+                <p>xxx</p>
+            </div>
+            <div>
+                <h3>社歴</h3>
+                <p>
+                    xxx
+                </p>
+            </div>
+            <div class="company-info">
+                <h3>ビジョン</h3>
+                <p>大島の美しい環境を保全し、地域社会に貢献する。</p>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="services" class="services">
+        <div class="container">
+            <h2>仕事内容</h2>
+            <div class="service">
+                <div class="service-icon"></div>
+                <h3>建築,土木,造園</h3>
+                <p><br>説明文<br><br></p>
+            </div>
+            <div class="service">
+                <div class="service-icon"></div>
+                <h3>有害鳥獣駆除(罠,猟銃)</h3>
+                <p><br>説明文<br><br></p>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2>プロジェクト</h2>
+            <div class="project">
+                <img src="image/20240730_130455096_iOS.jpg" alt="プロジェクト1">
+                <h3>有害鳥獣駆除</h3>
+                <p>有害鳥獣の捕獲を毎日行っています。</p>
+            </div>
+            <div class="project">
+                <img src="image/20240730_020927510_iOS.png" alt="プロジェクト2">
+                <h3>建築</h3>
+                <p>新築の家を建てました。</p>
+            </div>
+            <div class="project">
+                <img src="image/20240730_021238474_iOS.jpg" alt="プロジェクト3">
+                <h3>造園</h3>
+                <p>庭園のメンテナンスを行いました。</p>
+            </div>
+            <div class="project-link">
+                <a href="project.html">もっと見る</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="team" class="team">
+        <div class="container">
+            <h2>チーム</h2>
+            <div class="team-main-visual">
+                <img src="image/kurufuku_group.png" alt="チームメンバー集合写真">
+            </div>
+            <div class="team-text">
+                <h3>従業員数</h3>
+                <p>15名(2024年4月時点)</p>
+            </div>
+            <div class="team-text">
+                <h3>有資格者数</h3>
+                <h4>造園土木資格者</h4>
+                <p>
+                    資格名:x名
+                    <br>
+                    資格名:x名
+                </p>
+                <h4>有害鳥獣資格者</h4>
+                <p>
+                    資格名:x名
+                    <br>
+                    資格名:x名
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2>お問い合わせ</h2>
+            <div class="company-info">
+                <h3>TEL</h3>
+                <p>xxxxx-x-xxxx</p>
+            </div>
+            <div class="company-info">
+                <h3>FAX</h3>
+                <p>xxxxx-x-xxxx</p>
+            </div>
+            <div class="company-info">
+                <h3>MAIL</h3>
+                <p>xxx@xxx</p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 造園土木株式会社. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <script src="https://coco-factory.jp/ugokuweb/wp-content/themes/ugokuweb/data/5-2-1/js/5-2-1.js"></script>
+</body>
